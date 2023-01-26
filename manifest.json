@@ -1,5 +1,5 @@
 {
-   "author": "GreenPeace",
+   "author": "Greenpeace",
    "background": {
       "service_worker": "scripts/background.js"
    },
@@ -10,7 +10,7 @@
          "path": "rules.json"
       } ]
    },
-   "description": "Redirects http://gp/* links to Greenpeace tech Tools's hosted by Greenpeace TechLab Coding Team",
+   "description": "Redirects https://gp/* links to Greenpeace tech Tools's hosted by Greenpeace TechLab Coding Team",
    "host_permissions": [ "*://gp/" ],
    "icons": {
       "128": "images/icon-128.png",
@@ -22,5 +22,5 @@
    "manifest_version": 3,
    "name": "Greenpeace Links",
    "permissions": [ "declarativeNetRequest" ],
-   "version": "0.1"
+   "version": "0.2"
 }
